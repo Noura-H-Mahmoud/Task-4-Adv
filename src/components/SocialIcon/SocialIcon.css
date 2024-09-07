@@ -1,0 +1,13 @@
+.socialIcon {
+    width: 40px;
+    height: 40px;
+}
+
+.socialIcon:hover a {
+    color: #fff !important;
+}
+
+.socialIcon:hover {
+    background-color: var(--main-color) !important;
+    border: none !important;
+}

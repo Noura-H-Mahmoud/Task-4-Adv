@@ -1,0 +1,13 @@
+.transparent-background {
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.border-top-main {
+    border-top: 4px solid var(--main-color);
+}
+
+@media screen and (max-width:576px) {
+    .carousel-indicators [data-bs-target] {
+        margin-bottom: 10px;
+    }
+}

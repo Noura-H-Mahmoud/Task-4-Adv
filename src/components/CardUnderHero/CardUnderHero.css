@@ -1,0 +1,23 @@
+.padding {
+    padding-left: 23px;
+}
+
+.borderIconCardContact {
+    border: 1.7px dashed var(--main-color);
+}
+
+.card-hover:hover {
+    background-color: var(--main-color) !important;
+}
+
+.card-hover:hover .icon-hover {
+    color: #fff !important;
+}
+
+.card-hover:hover .body-hover {
+    color: #fff !important;
+}
+
+.card-hover:hover .borderIconCardContact {
+    border: 1.7px dashed #fff;
+}

@@ -1,0 +1,29 @@
+.bg-color-card {
+    background-color: var(--third-color);
+}
+
+.size-img-doctor {
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    top: 47%;
+    left: 11%;
+}
+
+@media screen and (max-width:768px) {
+    .size-img-doctor {
+        top: 54%;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .size-img-doctor {
+        top: 40%;
+    }
+}
+
+@media screen and (max-width:380px) {
+    .size-img-doctor {
+        top: 45%;
+    }
+}

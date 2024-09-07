@@ -1,0 +1,13 @@
+.w-para {
+    width: 170px;
+}
+
+.footer-top-gap {
+    gap: 100px;
+}
+
+@media screen and (max-width:576px) {
+    .footer-top-gap {
+        gap: 30px;
+    }
+}

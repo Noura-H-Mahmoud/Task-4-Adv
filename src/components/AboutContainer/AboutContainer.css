@@ -1,0 +1,13 @@
+.style-icon {
+    background-color: var(--main-color);
+    color: #fff;
+    width: 60px;
+    height: 60px;
+    outline: 15px solid rgb(163, 201, 209, .7);
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .play.position-absolute {
+        top: 35% !important;
+    }
+}

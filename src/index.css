@@ -1,5 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
 :root {
-  --main-bgcolor: #FF8500;
-  --second-bgcolor: #282828;
-  --price-color: #71AA27;
+  --main-color: #40BAC0;
+  --second-color: #F7FCFC;
+  --third-color: #F9F9F9;
+  --fourth-color: #e7e6e69e;
+  --fifth-color: #676868;
+  --text-color: #555555;
+  --main-font: 'Raleway', sans-serif; 
+  --main-padding: 104px;
+  --main-font-weight: 400;
+  --second-font-weight: 500;
+  --third-font-weight: 600;
+  --fourth-font-weight: 700;
+  --xxxlarge-font-size: 80px;
+  --xxlarge-font-size: 45px;
+  --large-font-size: 40px;
+  --medium-font-size: 32px;
+  --second-medium-font-size: 24px;
+  --small-font-size: 20px;
+  --xsmall-font-size: 16px;
+  --xxsmall-font-size: 14px;
+  --xxxsmall-font-size: 12px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  font-family: var(--main-font);
+}
+
+.color-main {
+  color: var(--main-color) !important;
+}
+
+.bg-color-main {
+  background-color: var(--main-color) !important;
+}
+
+.text-color {
+  color: var(--text-color) !important;
+}
+
+.fs-large {
+  font-size: var(--xxlarge-font-size) !important;
+}
+
+.max-content {
+  width: max-content !important;
+}
+
+.max-content-height {
+  height: max-content !important;
+}
+
+.box-shadow {
+  box-shadow: 0 0 45px rgba(0, 0, 0, .08) !important;
+}
+
+.second-font {
+  font-family: sans-serif;
+}
+
+.bg-color-second {
+  background-color: var(--second-color);
+}
+
+a{
+  cursor: pointer;
+}
+
+@media screen and (max-width:576px) {
+      #root{
+        --xxlarge-font-size: var(--second-medium-font-size);
+      }
+      html{
+        font-size: var(--xxxsmall-font-size);
+      }
 }

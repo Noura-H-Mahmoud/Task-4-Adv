@@ -1,0 +1,15 @@
+.position-arrowUp {
+    bottom: 21px;
+    right: 21px;
+}
+
+footer a:hover {
+    color: var(--main-color) !important;
+}
+
+@media screen and (max-width:576px) {
+    .position-arrowUp {
+        bottom: 11px;
+        right: 11px;
+    }
+}

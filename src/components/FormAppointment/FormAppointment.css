@@ -1,0 +1,19 @@
+.form-control:focus {
+    box-shadow: none !important;
+    border: 1px solid var(--main-color) !important;
+}
+
+.after-select::after {
+    content: "\2304";
+    font-size: 23px;
+    position: absolute;
+    right: 0.75rem;
+    top: 40%;
+    transform: translateY(-50%);
+    pointer-events: none;
+    color: #6c757d;
+}
+
+.after-select select {
+    padding-right: 2.5rem;
+}

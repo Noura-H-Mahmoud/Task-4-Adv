@@ -1,0 +1,29 @@
+.size {
+    width: 30%;
+    height: 100%;
+}
+
+.nav-pills .nav-link {
+    background-color: #fff !important;
+    border-right: 2px solid #ECECEC;
+    transition: background-color 0.3s, border-right 0.3s;
+}
+
+.nav-pills .nav-link.active {
+    border-right: 2px solid var(--main-color) !important;
+    color: var(--main-color) !important;
+}
+
+@media screen and (max-width:992px) {
+    .size {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:768px) {
+
+    .nav-pills .nav-link,
+    .nav-pills .nav-link.active {
+        border-right: none !important;
+    }
+}

@@ -1,0 +1,33 @@
+.carousel-indicators [data-bs-target] {
+    width: 16px !important;
+    height: 16px !important;
+    border-radius: 50% !important;
+    margin-right: 7px !important;
+    margin-left: 7px !important;
+    margin-bottom: 63px;
+}
+
+.carousel-indicators .active {
+    background-color: var(--main-color) !important;
+}
+
+.top-60 {
+    top: 60%;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    position: absolute;
+    top: 60%;
+    transform: translateY(-50%);
+}
+
+@media screen and (max-width:576px) {
+    .carousel-indicators [data-bs-target] {
+        margin-bottom: 10px;
+    }
+
+    .top-60 {
+        top: 50%;
+    }
+}

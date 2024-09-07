@@ -1,0 +1,8 @@
+.Line::after {
+    left: 0px;
+    transform: translateX(0);
+}
+
+.w-40container {
+    width: 60%;
+}

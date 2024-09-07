@@ -1,0 +1,57 @@
+.bg-title-card {
+    background-color: var(--fourth-color) !important;
+}
+
+/* This is better for response */
+.span-dollar-position {
+    transform: translateX(-700%);
+}
+
+.row div:nth-of-type(1) div div ul li:nth-of-type(4),
+.row div:nth-of-type(1) div div ul li:nth-of-type(5),
+.row div:nth-of-type(2) div div ul li:nth-of-type(5) {
+    opacity: 75%;
+}
+
+.row div:nth-of-type(1) div div ul li:nth-of-type(4)::after,
+.row div:nth-of-type(1) div div ul li:nth-of-type(5)::after,
+.row div:nth-of-type(2) div div ul li:nth-of-type(5)::after {
+    content: '';
+    position: absolute;
+    height: .8px;
+    width: 100%;
+    background-color: var(--text-color);
+    top: 20px;
+    left: 0;
+}
+
+.row div:nth-of-type(2) div .title-card {
+    background-color: var(--main-color) !important;
+    color: #fff !important;
+}
+
+.row div:nth-of-type(4) div .advanced-after {
+    position: relative;
+    overflow: hidden;
+}
+
+.row div:nth-of-type(4) div .advanced-after::after {
+    position: absolute;
+    content: 'Advanced';
+    background-color: var(--main-color);
+    color: #fff;
+    font-size: var(--xxsmall-font-size);
+    padding: 3px 37px;
+    transform: rotate(45deg);
+    right: -2.7rem;
+    top: 21px;
+}
+
+@media screen and (max-width: 576px) {
+
+    .row div:nth-of-type(1) div div ul li:nth-of-type(4)::after,
+    .row div:nth-of-type(1) div div ul li:nth-of-type(5)::after,
+    .row div:nth-of-type(2) div div ul li:nth-of-type(5)::after {
+        top: 15px !important;
+    }
+}

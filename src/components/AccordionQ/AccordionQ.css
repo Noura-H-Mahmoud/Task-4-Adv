@@ -1,0 +1,20 @@
+.accordion-item {
+    border-top: 1px solid #dee2e6 !important;
+}
+
+.accordion-item .accordion-button {
+    border-radius: 20px !important;
+    padding: 1.5rem;
+}
+
+.accordion-button::after {
+    transform: rotate(-90deg);
+}
+
+.accordion-button {
+    box-shadow: none !important;
+}
+
+.accordion-button:focus {
+    background-color: #fff !important;
+}

@@ -1,13 +1,26 @@
-// import React from 'react';
-import ReactDOM from 'react-dom';
-import { BrowserRouter } from 'react-router-dom';
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import LandingPage from './pages/LandingPage/LandingPage.jsx';
+import './index.css';
+import App from './App.jsx';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import App from './App';
 
+const routes = createBrowserRouter([
+  {
+    path: '/',
+    element: <App />, 
+    children: [
+      {
+        path: '/',
+        element: <LandingPage />,
+      }
+    ]
+  }
+]);
 
-ReactDOM.render(
-  <BrowserRouter>
-    <App />
-  </BrowserRouter>,
-  document.getElementById('root')
-);
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <React.StrictMode>
+    <RouterProvider router={routes} />
+  </React.StrictMode>
+) 
