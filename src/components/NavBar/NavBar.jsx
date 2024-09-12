@@ -34,7 +34,7 @@ export default function NavBar() {
     { link: "#questions", content: "Frequently Asked Questions" },
   ]
   return (
-    <nav className='d-flex flex-column w-100 fixed-top'>
+    <nav className='d-flex flex-column w-100 fixed-top box-shadow'>
       <NavTop
         text='Monday - Saturday, 8AM to 10PM'
         tell='Call us now +1 5589 55488 55'

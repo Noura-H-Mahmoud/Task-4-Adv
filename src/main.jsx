@@ -8,11 +8,11 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 const routes = createBrowserRouter([
   {
-    path: '/',
+    path: '/Task-4-Adv/',
     element: <App />, 
     children: [
       {
-        path: '/',
+        index: true, 
         element: <LandingPage />,
       }
     ]
